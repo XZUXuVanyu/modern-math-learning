@@ -2,59 +2,74 @@
 
 Owner: xzu. Created: 2026-09-07.
 
-Textbook-structured mathematics for an undergraduate physics student: group theory, matrix Lie groups and Lie algebras, then differential geometry. One new concept or skill and one homework task per lesson.
+Textbook-structured mathematics for an undergraduate physics student: group theory, matrix Lie groups and Lie algebras, then differential geometry. Each lesson introduces exactly one new concept or skill and ends with exactly one homework task.
 
 ## Start or resume
 
-1. Read [AGENTS.md](AGENTS.md), [learning-agreement.md](learning-agreement.md), [program-context.md](program-context.md), and [progress.md](progress.md).
-2. Open the active lesson: [M001 — Definition of a group](lessons/M001-group-definition.md).
-3. Attempt its single homework. Upload original handwriting to [homework/M001/raw/](homework/M001/raw/README.md); LaTeX transcription is optional.
-4. Record your time spent and obstacle in [homework/M001/attempt.md](homework/M001/attempt.md). Receive feedback, revise, and checkpoint.
+Day 1 is the active lesson.
 
-Use one conversation per lesson, continuing it for revisions. Local CLI sessions should read the same records. Receiving a lesson does not establish mastery. Actual submissions, review evidence, and the current checkpoint determine progress.
+1. Read [AGENTS.md](AGENTS.md), [learning-agreement.md](learning-agreement.md), [program-context.md](program-context.md), and [progress.md](progress.md).
+2. Study [Day 1 / M001 — Definition of a group](lessons/M001-group-definition.md).
+3. Attempt its single matrix-group proof. Upload the original handwriting to [homework/M001/raw/](homework/M001/raw/README.md); a LaTeX transcription is optional.
+4. Record time spent, assistance used, and the exact difficult step in [homework/M001/attempt.md](homework/M001/attempt.md).
+5. Review the submitted evidence before changing the difficulty or moving to the next concept.
+
+Use one conversation per lesson and keep that conversation for its revisions. Local Codex sessions and future ChatGPT conversations should recover the same repository checkpoint first. Delivery does not establish mastery.
+
+## Current state
+
+- Active unit: Day 1 / M001, definition of a group.
+- Execution: active.
+- Mastery: not attempted.
+- Evidence: no learner proof, handwriting, transcript, or code has been submitted.
+- Next action: attempt the one proof in M001 and report time spent plus the point of difficulty.
+
+The authoritative live status is [progress.md](progress.md).
 
 ## Structure
 
 | Path | Purpose |
 | --- | --- |
-| `AGENTS.md` | Tutor instructions and learner-owned work |
+| `AGENTS.md` | Tutor instructions and learner-owned-work rules |
 | `learning-agreement.md` | Learning, evidence, prerequisite, and adaptation rules |
-| `program-context.md` | Goals, source-project mapping, and continuation context |
+| `program-context.md` | Course direction and repository continuation context |
 | `progress.md` | Authoritative live checkpoint |
-| `weekly-plan.md` | Every-two-days schedule and weekly review |
+| `weekly-plan.md` | Every-two-days rhythm and periodic review |
 | `curriculum.md` | Textbook sequence and prerequisite map |
-| `lessons/` | Lesson 1 and reusable lesson record |
+| `lessons/` | Lessons and reusable lesson template |
 | `homework/` | Original handwriting, optional transcripts, attempts, and reviews |
 | `practice/` | Learner-authored computational experiments |
 
-## Local and remote setup
+## Repository setup
 
-The delivered ZIP contains this directory with its initialized Git history. Extract it and open a terminal in `modern-math-learning`. The repository already has an initial commit on `main`; do not run another initialization.
+Verified remote: [XZUXuVanyu/modern-math-learning](https://github.com/XZUXuVanyu/modern-math-learning)
+
+- Visibility: public.
+- Default branch: `main`.
+- GitHub is the shared durable checkpoint.
+- Repository edits made directly through the connected GitHub integration are already remote commits.
+- A local clone does not update automatically; use ordinary Git synchronization.
+
+To work locally for the first time:
 
 ```sh
+git clone https://github.com/XZUXuVanyu/modern-math-learning.git
+cd modern-math-learning
 git status
-git log -1 --oneline
 ```
 
-The remote has **not** been created. The connected GitHub tools could read the source repository but exposed no repository-creation action; this session also had no authenticated GitHub CLI. No `origin` has been configured, so there is no fictitious remote.
-
-With Git and the [GitHub CLI](https://cli.github.com/) installed on your computer, authenticate if necessary, then create and push a private remote:
+To resume from an existing clean clone:
 
 ```sh
-gh auth login
-gh repo create XZUXuVanyu/modern-math-learning --private --source=. --remote=origin --push
+git pull --ff-only
 ```
 
-Run the create command once, only if that remote name is available. `--private` is a suggested initial visibility, not a recorded user preference. If you deliberately want public course records, use `--public` instead. The command uses the existing local commit. See the [official command reference](https://cli.github.com/manual/gh_repo_create).
-
-Alternatively, create an empty GitHub repository named `modern-math-learning` under your account without a generated README, license, or gitignore, and share its URL in this conversation so the prepared files can be uploaded using the existing connection.
-
-After a successful upload, record the verified URL in `program-context.md` and ask to link the scheduled lesson task to the remote checkpoint. The current automation has not been changed to depend on a nonexistent repository.
+Before a future lesson, read the remote `main` checkpoint rather than relying on chat history alone. Preserve unrelated learner changes and inspect `git status` before committing local work.
 
 ## New-conversation entry
 
-Read AGENTS.md, learning-agreement.md, program-context.md, progress.md, curriculum.md, and the active lesson and attempt records. Resume the next action recorded in progress.md. Teach one concept at a time and give exactly one homework task. Review my actual handwriting/code, keep uncertain transcription separate from mathematical errors, and do not supply the crucial homework proof or implementation before my attempt.
+Read AGENTS.md, learning-agreement.md, program-context.md, progress.md, curriculum.md, the active lesson, and its attempt/review records. Resume the single next action in progress.md. Teach one concept at a time, assign exactly one homework task, review actual handwriting or code, separate uncertain transcription from mathematical error, and do not supply the crucial homework proof before the learner attempts it.
 
 ## Handwriting workflow
 
-Upload the original PNG first. Preserve it even if using Gemini or another model to transcribe it. Check any transcription against the source; place mathematical corrections in a separate revision. See [homework/README.md](homework/README.md).
+Upload the original PNG first and preserve it even if Gemini or another model produces LaTeX. Check any transcription against the source; keep mathematical corrections in a later revision rather than rewriting the original attempt. See [homework/README.md](homework/README.md).

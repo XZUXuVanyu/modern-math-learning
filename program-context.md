@@ -1,6 +1,6 @@
 # Program context
 
-Recorded: 2026-09-07.
+Recorded: 2026-09-07. Repository state verified: 2026-09-07.
 
 ## Learner and direction
 
@@ -12,30 +12,43 @@ The chosen sequence is groups -> matrix Lie groups and Lie algebras -> different
 
 The user asked to copy the structure of “Typescript and Harness.” The associated learning repository identified from conversation context and verified live is [XZUXuVanyu/axiom-learning](https://github.com/XZUXuVanyu/axiom-learning).
 
-Inspected snapshot: `cc1a3359df34c6be9f6862b4efc93efe349f6448` (root tree returned for main on 2026-09-07; used as the read ref). Inspected README.md, AGENTS.md, learning-agreement.md, program-context.md, progress.md, weekly-plan.md, and lessons/TEMPLATE.md.
+Inspected source snapshot: `cc1a3359df34c6be9f6862b4efc93efe349f6448` on 2026-09-07. The initial adaptation used its README.md, AGENTS.md, learning-agreement.md, program-context.md, progress.md, weekly-plan.md, and lessons/TEMPLATE.md.
 
 | Source | Mathematics adaptation |
 | --- | --- |
 | README.md, AGENTS.md | Entry point and tutor rules |
-| learning-agreement.md | Learner-owned reasoning, feedback and evidence |
+| learning-agreement.md | Learner-owned reasoning, feedback, and evidence |
 | program-context.md | Course direction and continuation |
 | progress.md | One authoritative active checkpoint |
 | weekly-plan.md | Two-day lesson rhythm instead of alternating engineering weeks |
 | lessons/TEMPLATE.md | Mathematics lesson/attempt/review record |
-| practice-plugin/ | practice/ for optional learner-written numerical work |
-| No dedicated handwriting workflow | homework/ adds raw, transcribed and reviewed records |
+| practice-plugin/ | `practice/` for optional learner-written numerical work |
+| No dedicated handwriting workflow | `homework/` for raw, transcribed, and reviewed records |
 
-This is a new independent repository, not a fork of Axiom code or a copy of its learning history. No source-repository files were modified.
+This is an independent mathematics repository, not a fork of Axiom code or a copy of its learning history. No source-repository files were modified.
 
-## Scheduling and repository state
+## Schedule
 
-An enabled lesson automation was created in this conversation: every two days starting September 9, 2026, around 19:00 Asia/Shanghai. Lesson 1 was delivered September 7. The automation delivers lessons; it does not establish a repository write/synchronization service.
+The lesson rhythm is every two days. An automation was recorded as enabled starting 2026-09-09 around 19:00 Asia/Shanghai; M001 was prepared and delivered on 2026-09-07.
 
-Local project name: modern-math-learning. Git branch: main.
-Remote state: not created. Intended owner/name: XZUXuVanyu/modern-math-learning; this is a proposal, not a verified remote URL.
+Scheduling organizes delivery, not mastery. The automation does not by itself prove that a future run has read or updated this repository. Each lesson session must explicitly recover the remote checkpoint before teaching or writing.
 
-The session could read GitHub and edit existing repositories but exposed no creation action. No authenticated local GitHub CLI was available. README.md contains the remaining creation/push command for the user's computer. Until remote creation succeeds, use this package to provide the latest files to later conversations. Afterward, explicitly connect future lesson generation to that remote checkpoint.
+## Verified repository state
 
-## Current state
+- Repository: [XZUXuVanyu/modern-math-learning](https://github.com/XZUXuVanyu/modern-math-learning)
+- Visibility: public.
+- Default branch: `main`.
+- Remote creation: complete and verified through the connected GitHub integration.
+- GitHub permissions observed on 2026-09-07: read and push access available.
+- Initial remote commit: `dde3cce84c363bd173bd2199780a341d028d6041`.
+- Local synchronization: not automatic. A local clone must pull remote changes; direct GitHub edits are already remote commits.
 
-See progress.md. No submitted answer, verified mastery, executable experiment, or LaTeX compilation is recorded. Do not import the unrelated Axiom C001 progress as mathematical competence.
+The previous statements that the remote did not exist, that `origin` was unconfigured everywhere, and that the user still needed to create the repository are obsolete and have been removed from the active setup instructions.
+
+## Current learning state
+
+See [progress.md](progress.md).
+
+Day 1 is M001, the definition of a group. It is active and awaiting the learner's first proof attempt. No submitted answer, verified mastery, executable experiment, or LaTeX compilation is recorded. Do not import unrelated Axiom progress as mathematical competence.
+
+The next evidence-bearing action is the learner's attempt at the single M001 matrix-group proof, with original handwriting, time spent, assistance used, and the exact difficult step. If matrix multiplication is a real blocker, pause M001, record the blocker, teach the smallest bounded prerequisite, and then return to the arbitrary-parameter product.
