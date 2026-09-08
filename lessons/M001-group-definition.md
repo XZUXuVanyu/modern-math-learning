@@ -1,11 +1,12 @@
 # M001 — Definition of a group (群)
 
-Delivered: 2026-09-07. Mastery: not attempted. Execution: active.
+Delivered: 2026-09-07. Reviewed: 2026-09-08.
+Mastery: demonstrated with assistance. Execution: first review complete.
 Textbook anchor: Artin, Algebra, second edition, Chapter 2, especially §2.2. This is an original short lesson following that topic, not a textbook excerpt.
 
 ## One objective and prerequisites
 
-Understand and check the definition of a group. Recall ordinary integer addition and matrix multiplication. The latter is assumed provisionally for the homework; report if it is unfamiliar.
+Understand and check the definition of a group. Recall ordinary integer addition and matrix multiplication. The latter was assumed provisionally and was used successfully in the submitted proof.
 
 ## Motivation
 
@@ -48,12 +49,23 @@ $$
 
 Prove that $G$ is a group under matrix multiplication, explicitly checking all four conditions. You may use the known associativity of matrix multiplication.
 
-Starting hint: compute $S(s)S(t)$ for arbitrary real $s,t$. A few numerical examples cannot establish closure for every pair.
+Starting hint supplied with the lesson: compute $S(s)S(t)$ for arbitrary real $s,t$. A few numerical examples cannot establish closure for every pair.
 
-The learner owns the general product calculation, identity/inverse reasoning, and complete argument. No solution is stored in this repository.
+The learner owns the general product calculation, identity/inverse reasoning, and complete argument.
 
-Submit original handwriting and optionally a checked transcription; report time spent and where you got stuck in [the attempt record](../homework/M001/attempt.md).
+## Evidence and feedback
 
-## Checkpoint
+- Original submission: [homework/M001/raw/attempt-01.pdf](../homework/M001/raw/attempt-01.pdf).
+- Attempt record: [homework/M001/attempt.md](../homework/M001/attempt.md).
+- Tutor review: [homework/M001/review.md](../homework/M001/review.md).
 
-No attempt received. Tutor review and learner explanation remain pending. If a prerequisite is missing, record it in progress.md and return to the same proof after a bounded prerequisite lesson.
+The original submission correctly established closure, identity, and inverses, but its claimed associativity line actually established commutativity. After one focused hint to compare three arbitrary elements and the two parenthesizations, the learner supplied the correct revised equality. Minor membership notation and terminology corrections are recorded in the review.
+
+## Prerequisite and checkpoint
+
+- Blocker: none observed.
+- Matrix multiplication prerequisite: adequate for this task.
+- Mastery: demonstrated with assistance.
+- Retention: not assessed.
+- Time spent: not reported.
+- Next action: begin M002 on 2026-09-09 with subgroup as the single new concept. No second M001 assignment is active.
