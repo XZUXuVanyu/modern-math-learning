@@ -1,6 +1,15 @@
 # Current progress
 
-Updated: 2026-09-08.
+Updated: 2026-09-10.
+
+## Active lesson
+
+- [M002 — Subgroups](lessons/M002-subgroups.md), prepared and added on 2026-09-10.
+- Mastery: not attempted. Execution: ready for the learner.
+- One homework: prove that invertible real 2x2 matrices fixing a specified nonzero vector form a subgroup.
+- No M002 submission yet; time and difficulty feedback remain pending.
+
+## Preserved M001 checkpoint
 
 - Course: Modern Math & Physics.
 - Current lesson record: [M001 — Definition of a group](lessons/M001-group-definition.md).
@@ -23,7 +32,7 @@ Minor notation corrections remain documented in the review: $S(t)\in G$ rather t
 
 ## Next action
 
-On 2026-09-09, begin M002 with one new concept: subgroup, following the Artin Chapter 2 sequence. Use the M001 distinction between associativity and commutativity in the recap, but do not add a separate retention assignment.
+Begin [M002 — Subgroups](lessons/M002-subgroups.md), now available. Study the single concept and attempt its one proof task. The lesson includes the M001 distinction between associativity and commutativity as a recap, without a separate retention assignment. September 9 was the planned start date; actual repository preparation occurred September 10. No claim is made about whether a scheduled delivery ran.
 
 ## Prerequisite and return point
 
