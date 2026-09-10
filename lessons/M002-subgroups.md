@@ -1,7 +1,8 @@
 # M002 — Subgroups (子群)
 
 Prepared: 2026-09-10.
-Mastery: not attempted. Execution: ready for the learner.
+Delivery: begun with the learner on 2026-09-10.
+Mastery: not attempted. Execution: active.
 Textbook anchor: Michael Artin, Algebra, second edition, Chapter 2 §2.2, Groups and Subgroups.
 This is an original lesson following the textbook topic, not a textbook excerpt.
 
@@ -94,7 +95,7 @@ Submit the original handwriting (PNG or PDF), optionally a checked transcription
 
 ## Evidence and checkpoint
 
-- No M002 submission or execution evidence yet.
+- M002 delivery has begun; no homework submission or learner-attempt evidence yet.
 - Difficulty remains provisional; the task transfers M001's matrix work to a subset defined by a constraint.
 - Existing M001 review: [homework/M001/review.md](../homework/M001/review.md).
 - Next action: learner studies M002 and attempts the single subgroup proof.

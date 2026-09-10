@@ -5,7 +5,8 @@ Updated: 2026-09-10.
 ## Active lesson
 
 - [M002 — Subgroups](lessons/M002-subgroups.md), prepared and added on 2026-09-10.
-- Mastery: not attempted. Execution: ready for the learner.
+- Delivery: begun with the learner on 2026-09-10.
+- Mastery: not attempted. Execution: active.
 - One homework: prove that invertible real 2x2 matrices fixing a specified nonzero vector form a subgroup.
 - No M002 submission yet; time and difficulty feedback remain pending.
 
@@ -32,7 +33,7 @@ Minor notation corrections remain documented in the review: $S(t)\in G$ rather t
 
 ## Next action
 
-Begin [M002 — Subgroups](lessons/M002-subgroups.md), now available. Study the single concept and attempt its one proof task. The lesson includes the M001 distinction between associativity and commutativity as a recap, without a separate retention assignment. September 9 was the planned start date; actual repository preparation occurred September 10. No claim is made about whether a scheduled delivery ran.
+Study the single subgroup concept in [M002 — Subgroups](lessons/M002-subgroups.md) and attempt its one proof task. The lesson includes the M001 distinction between associativity and commutativity as a recap, without a separate retention assignment. September 9 was the planned start date; repository preparation and actual delivery began September 10.
 
 ## Prerequisite and return point
 
@@ -43,6 +44,7 @@ Begin [M002 — Subgroups](lessons/M002-subgroups.md), now available. Study the 
 
 ## Review log
 
+- 2026-09-10: M002 delivery begun; no proof step, time report, or difficulty report submitted yet.
 - 2026-09-08: one-page handwritten attempt inspected.
 - Closure, identity, and inverse arguments were correct in substance.
 - Original associativity claim actually proved commutativity.
