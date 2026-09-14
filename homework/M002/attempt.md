@@ -6,8 +6,8 @@ Status: handwritten source inspected; this record is a checked summary, not a re
 ## Source evidence
 
 - Two handwritten pages were supplied in the M002 lesson conversation:
-  - \`1000028358.jpg\` — source identifier \`file_00000000e9ec82098595ba32db9cd60c\`
-  - \`1000028357.jpg\` — source identifier \`file_000000001fbc8206bfd8e917d5d37df1\`
+  - `1000028358.jpg` — source identifier `file_00000000e9ec82098595ba32db9cd60c`
+  - `1000028357.jpg` — source identifier `file_000000001fbc8206bfd8e917d5d37df1`
 - See [raw/README.md](raw/README.md) for the raw-source ledger.
 - The source images remain authoritative. They were visually inspected directly; no AI-generated LaTeX transcript was used as primary evidence.
 
