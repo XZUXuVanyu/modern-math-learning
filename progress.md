@@ -2,7 +2,16 @@
 
 Updated: 2026-09-15.
 
-## Current state
+## Active lesson
+
+- [M003 — Subgroups of the additive integers](lessons/M003-subgroups-of-integers.md).
+- Prepared and delivered in response to the learner's Lesson 3 request.
+- Mastery: not attempted. Execution: active.
+- One homework: classify H = {12m + 18n : m,n are integers} as an additive subgroup, proving subgroup membership and determining d with H = dZ.
+- No M003 attempt or timing feedback yet.
+- Pacing: target 20–30 min study and 20–40 min homework; explicit set/operation notation, one formal task, difficulty remains provisional.
+
+## Preserved M002 state
 
 - Latest lesson: [M002 — Subgroups](lessons/M002-subgroups.md).
 - Delivery: complete.
@@ -49,7 +58,7 @@ M002 is therefore demonstrated with assistance, not independently. No conceptual
 
 ## Next action
 
-Prepare the next Artin-ordered lesson after subgroups. No new assignment has been activated yet.
+Study M003 and attempt its single classification task. Verify closure in the candidate subset; do not infer it solely from closure in the parent group.
 
 ## Prerequisite and return point
 
