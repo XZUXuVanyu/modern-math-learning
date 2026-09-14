@@ -1,53 +1,61 @@
 # Current progress
 
-Updated: 2026-09-10.
+Updated: 2026-09-15.
 
-## Active lesson
+## Current state
 
-- [M002 — Subgroups](lessons/M002-subgroups.md), prepared and added on 2026-09-10.
-- Delivery: begun with the learner on 2026-09-10.
-- Mastery: not attempted. Execution: active.
-- One homework: prove that invertible real 2x2 matrices fixing a specified nonzero vector form a subgroup.
-- No M002 submission yet; time and difficulty feedback remain pending.
+- Latest lesson: [M002 — Subgroups](lessons/M002-subgroups.md).
+- Delivery: complete.
+- Mastery: demonstrated with assistance.
+- Execution: review complete; no active homework.
+- Retention: not assessed.
+- Attempt record: [homework/M002/attempt.md](homework/M002/attempt.md).
+- Tutor review: [homework/M002/review.md](homework/M002/review.md).
+- Raw-source ledger: [homework/M002/raw/README.md](homework/M002/raw/README.md).
+- Time reported: 1 h 40 min total — 1 h learning and 40 min for work described by the learner as “2 homework” (one in-lesson check plus the one formal M002 proof).
+
+## M002 evidence summary
+
+The learner correctly characterized matrices fixing
+[
+v=\begin{pmatrix}1\\0\end{pmatrix}
+]
+as
+[
+\begin{pmatrix}1&a\\0&b\end{pmatrix},
+qquad a\in\mathbb R,\quad b\ne0,
+]
+and correctly handled the identity and inverse.
+
+The original proof omitted closure, based on the incorrect inference that closure in (G) automatically gives closure in (H). After one focused hint identified that gap, the learner independently chose a general product calculation. A second focused hint targeted a mistaken lower-right entry; the learner corrected it to (bb') and completed the closure argument. Associativity was correctly understood as inherited from the parent operation after the lesson's notation discussion.
+
+M002 is therefore demonstrated with assistance, not independently. No conceptual blocker remains. Later transfer should check whether closure in a constrained subset is tested without prompting.
 
 ## Preserved M001 checkpoint
 
-- Course: Modern Math & Physics.
-- Current lesson record: [M001 — Definition of a group](lessons/M001-group-definition.md).
+- Lesson: [M001 — Definition of a group](lessons/M001-group-definition.md).
 - Delivery: delivered on 2026-09-07.
 - Mastery: demonstrated with assistance.
-- Execution: first review complete; awaiting the next scheduled lesson.
+- Execution: review complete.
 - Primary evidence: [homework/M001/raw/attempt-01.pdf](homework/M001/raw/attempt-01.pdf).
 - Attempt record: [homework/M001/attempt.md](homework/M001/attempt.md).
 - Tutor review: [homework/M001/review.md](homework/M001/review.md).
 - Time spent: not reported.
 - Retention: not assessed.
 
-## Evidence summary
-
-The learner independently obtained the general product formula $S(t_1)S(t_2)=S(t_1+t_2)$ and correctly used it for closure, identity, and inverses.
-
-The original proof confused commutativity with associativity. After the tutor asked for a comparison of the two parenthesizations of three arbitrary elements, the learner supplied the correct equality and repaired the gap. Assistance is therefore part of the assessment record.
-
-Minor notation corrections remain documented in the review: $S(t)\in G$ rather than $S(t)\in\mathbb R$, explicit membership of $S(0)$ and $S(-t)$, and inverse rather than reverse. They do not require a second M001 assignment.
-
 ## Next action
 
-Study the single subgroup concept in [M002 — Subgroups](lessons/M002-subgroups.md) and attempt its one proof task. The lesson includes the M001 distinction between associativity and commutativity as a recap, without a separate retention assignment. September 9 was the planned start date; repository preparation and actual delivery began September 10.
+Prepare the next Artin-ordered lesson after subgroups. No new assignment has been activated yet.
 
 ## Prerequisite and return point
 
 - Blocker: none observed.
 - Active prerequisite: none.
-- Return point: not applicable; the M001 proof is complete after the recorded revision.
-- Proof fluency remains provisional because only one reviewed proof has been submitted.
+- Return point: not applicable.
+- Proof fluency remains provisional because both reviewed proofs required focused assistance.
 
 ## Review log
 
-- 2026-09-10: M002 delivery begun; no proof step, time report, or difficulty report submitted yet.
-- 2026-09-08: one-page handwritten attempt inspected.
-- Closure, identity, and inverse arguments were correct in substance.
-- Original associativity claim actually proved commutativity.
-- One focused hint requested a three-element parenthesization comparison.
-- Learner supplied a correct revised associativity equality.
-- M001 marked demonstrated with assistance; retention remains untested.
+- 2026-09-15: M002 handwritten proof and conversation revision reviewed. Identity and inverse were correct in substance. Closure was initially omitted, then repaired after two focused hints, including correction of the product's lower-right entry to (bb'). M002 marked demonstrated with assistance.
+- 2026-09-10: M002 delivery begun; no proof step, time report, or difficulty report submitted at that checkpoint.
+- 2026-09-08: M001 associativity gap repaired after one focused hint; M001 marked demonstrated with assistance.
