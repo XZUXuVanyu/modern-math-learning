@@ -14,14 +14,15 @@ Prerequisites: group definition, subset notation, matrix multiplication, identit
 
 ## Brief recap
 
-Associativity compares ((ab)c) with (a(bc)): the order stays fixed, and parentheses change.
-Commutativity compares (ab) with (ba): the order changes.
+Associativity compares $(ab)c$ with $a(bc)$: the order stays fixed, and parentheses change.
+Commutativity compares $ab$ with $ba$: the order changes.
 Groups require associativity, but need not be commutative.
 
-The M001 group consists of the matrices (S(t)) under multiplication, with
-[
+The M001 group consists of the matrices $S(t)$ under multiplication, with
+
+$$
 S(s)S(t)=S(s+t).
-]
+$$
 
 ## Motivation
 
@@ -29,61 +30,63 @@ Once a collection of transformations is known to form a group, we often select t
 
 ## Definition
 
-Let ((G,*)) be a group. A subset (H\subseteq G) is a subgroup of (G) if (H), using the operation inherited from (G), is itself a group. We write (H\leq G).
+Let $(G,*)$ be a group. A subset $H\subseteq G$ is a subgroup of $G$ if $H$, using the operation inherited from $G$, is itself a group. We write $H\leq G$.
 
-“Inherited” means that for (a,b\in H), their product is computed exactly as in (G). No different operation is introduced on (H).
+“Inherited” means that for $a,b\in H$, their product is computed exactly as in $G$. No different operation is introduced on $H$.
 
-A subset need not be a subgroup. Membership in (G) alone does not guarantee that products or inverses stay inside (H).
+A subset need not be a subgroup. Membership in $G$ alone does not guarantee that products or inverses stay inside $H$.
 
 ## How to check the definition
 
 A convenient equivalent checklist is:
 
-1. (e_G\in H): the identity of the parent group belongs to (H).
-2. For every (a,b\in H), (a*b\in H): closure under the inherited operation.
-3. For every (a\in H), its inverse (a^{-1}) in (G) belongs to (H).
+1. $e_G\in H$: the identity of the parent group belongs to $H$.
+2. For every $a,b\in H$, $a*b\in H$: closure under the inherited operation.
+3. For every $a\in H$, its inverse $a^{-1}$ in $G$ belongs to $H$.
 
 This is sufficient because:
 
-- Condition 1 makes (H) nonempty and supplies its identity.
-- Condition 2 makes the restricted operation a map (H\times H\to H).
-- For (a,b,c\in H), all three lie in (G), so ((a*b)*c=a*(b*c)) is inherited from (G).
-- Condition 3 supplies an inverse inside (H).
+- Condition 1 makes $H$ nonempty and supplies its identity.
+- Condition 2 makes the restricted operation a map $H\times H\to H$.
+- For $a,b,c\in H$, all three lie in $G$, so $(a*b)*c=a*(b*c)$ is inherited from $G$.
+- Condition 3 supplies an inverse inside $H$.
 
-Conversely, if (H) is a group under the restricted operation, its identity and inverses coincide with those of (G). These are consequences of the subgroup definition, not assumptions about a new operation.
+Conversely, if $H$ is a group under the restricted operation, its identity and inverses coincide with those of $G$. These are consequences of the subgroup definition, not assumptions about a new operation.
 
 ## Worked example: even integers
 
-Take the known group ((\mathbb Z,+)) and
-[
+Take the known group $(\mathbb Z,+)$ and
+
+$$
 H=2\mathbb Z=\{2n:n\in\mathbb Z\}.
-]
+$$
 
-1. Identity: (0=2\cdot0\in H).
-2. Closure: if (a=2m) and (b=2n), then
-   [
+1. Identity: $0=2\cdot0\in H$.
+2. Closure: if $a=2m$ and $b=2n$, then
+   $$
    a+b=2(m+n)\in H.
-   ]
-3. Inverses: if (a=2m), then (-a=2(-m)\in H).
+   $$
+3. Inverses: if $a=2m$, then $-a=2(-m)\in H$.
 
-Addition is associative on all integers and hence on (H). Therefore (2\mathbb Z\leq(\mathbb Z,+)).
+Addition is associative on all integers and hence on $H$. Therefore $2\mathbb Z\leq(\mathbb Z,+)$.
 
-Here “inverse” means additive inverse, not the reciprocal (1/a).
+Here “inverse” means additive inverse, not the reciprocal $1/a$.
 
 ## Boundary example
 
-The odd integers are not a subgroup of ((\mathbb Z,+)): (1+1=2) leaves the subset, and the identity (0) is absent. One failed requirement suffices.
+The odd integers are not a subgroup of $(\mathbb Z,+)$: $1+1=2$ leaves the subset, and the identity $0$ is absent. One failed requirement suffices.
 
 ## One homework task — original proof exercise
 
-Let (G) be the group of all invertible real (2\times2) matrices under multiplication. Fix
-[
-v=\begin{pmatrix}1\\0\end{pmatrix},
-qquad
-H=\{A\in G:Av=v\}.
-]
+Let $G$ be the group of all invertible real $2\times2$ matrices under multiplication. Fix
 
-Prove that (H) is a subgroup of (G), establishing identity membership, closure, inverse membership, and why associativity needs no independent proof.
+$$
+v=\begin{pmatrix}1\\0\end{pmatrix},
+\qquad
+H=\{A\in G:Av=v\}.
+$$
+
+Prove that $H$ is a subgroup of $G$, establishing identity membership, closure, inverse membership, and why associativity needs no independent proof.
 
 The learner owns the decisive arguments. Numerical examples alone are insufficient.
 
@@ -96,7 +99,7 @@ The learner owns the decisive arguments. Numerical examples alone are insufficie
 - Time reported: 1 h 40 min total — 1 h learning and 40 min for an in-lesson associativity check plus the formal subgroup proof.
 - Identity and inverse arguments were correct in substance.
 - Original closure reasoning was missing; after a focused hint, the learner supplied a general product calculation.
-- The product's lower-right entry was initially written incorrectly and then corrected to (bb') after a row-column hint.
+- The product's lower-right entry was initially written incorrectly and then corrected to $bb'$ after a row-column hint.
 - Associativity was correctly understood as inherited from the parent operation.
 - Mastery: demonstrated with assistance.
 - Execution: review complete.

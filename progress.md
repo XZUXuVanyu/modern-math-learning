@@ -17,17 +17,21 @@ Updated: 2026-09-15.
 ## M002 evidence summary
 
 The learner correctly characterized matrices fixing
-[
+
+$$
 v=\begin{pmatrix}1\\0\end{pmatrix}
-]
+$$
+
 as
-[
+
+$$
 \begin{pmatrix}1&a\\0&b\end{pmatrix},
-qquad a\in\mathbb R,\quad b\ne0,
-]
+\qquad a\in\mathbb R,\quad b\ne0,
+$$
+
 and correctly handled the identity and inverse.
 
-The original proof omitted closure, based on the incorrect inference that closure in (G) automatically gives closure in (H). After one focused hint identified that gap, the learner independently chose a general product calculation. A second focused hint targeted a mistaken lower-right entry; the learner corrected it to (bb') and completed the closure argument. Associativity was correctly understood as inherited from the parent operation after the lesson's notation discussion.
+The original proof omitted closure, based on the incorrect inference that closure in $G$ automatically gives closure in $H$. After one focused hint identified that gap, the learner independently chose a general product calculation. A second focused hint targeted a mistaken lower-right entry; the learner corrected it to $bb'$ and completed the closure argument. Associativity was correctly understood as inherited from the parent operation after the lesson's notation discussion.
 
 M002 is therefore demonstrated with assistance, not independently. No conceptual blocker remains. Later transfer should check whether closure in a constrained subset is tested without prompting.
 
@@ -56,6 +60,6 @@ Prepare the next Artin-ordered lesson after subgroups. No new assignment has bee
 
 ## Review log
 
-- 2026-09-15: M002 handwritten proof and conversation revision reviewed. Identity and inverse were correct in substance. Closure was initially omitted, then repaired after two focused hints, including correction of the product's lower-right entry to (bb'). M002 marked demonstrated with assistance.
+- 2026-09-15: M002 handwritten proof and conversation revision reviewed. Identity and inverse were correct in substance. Closure was initially omitted, then repaired after two focused hints, including correction of the product's lower-right entry to $bb'$. M002 marked demonstrated with assistance.
 - 2026-09-10: M002 delivery begun; no proof step, time report, or difficulty report submitted at that checkpoint.
 - 2026-09-08: M001 associativity gap repaired after one focused hint; M001 marked demonstrated with assistance.
